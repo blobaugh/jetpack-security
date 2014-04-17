@@ -9,6 +9,7 @@
  * Author URI: http://ben.lobaugh.net
  */
 
+if( !class_exists( 'Jetpack_Security' ) ) {
 
 class Jetpack_Security {
 
@@ -100,3 +101,5 @@ class Jetpack_Security {
 } // end class Jetpack_Security
 
 new Jetpack_Security();
+
+} // end if class_exists
